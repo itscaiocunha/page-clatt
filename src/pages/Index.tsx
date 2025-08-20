@@ -3,6 +3,7 @@ import HeroSection from '@/components/HeroSection';
 import ExperienceSection from '../components/Experience';
 import RoomsSection from '@/components/Rooms';
 import Footer from '@/components/Footer';
+import LocationSection from '@/components/Local';
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Header />
       <HeroSection />
       <RoomsSection />
+      <LocationSection />
       <ExperienceSection />
       <Footer />
     </div>

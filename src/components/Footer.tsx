@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-white/20 pt-8">
+        <div className="border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/70  italic font-light text-sm">
               Copyright © 2025 Clatt Hotel
