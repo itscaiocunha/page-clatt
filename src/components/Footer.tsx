@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Logo */}
           <div className="md:col-span-1">
-            <img src="/images/logo/logo-branca.png" alt="" className='w-40 h-auto' />
+            <img src="https://w7startup.com.br/img/clatt/logo-branca.png" alt="" className='w-40 h-auto' />
           </div>
 
           {/* Conheça mais */}

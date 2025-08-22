@@ -49,7 +49,7 @@ const Header = () => {
 
             <div className="flex-1 flex justify-center">
               <a href="/">
-                <img src="/images/logo/logo-branca.png" alt="Logo Branca com escrito Clatt Hotel Design Executivo" className="w-40 h-auto" />
+                <img src="https://w7startup.com.br/img/clatt/logo-branca.png" alt="Logo Branca com escrito Clatt Hotel Design Executivo" className="w-40 h-auto" />
               </a>
             </div>
 
