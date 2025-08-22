@@ -1,12 +1,10 @@
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
-import heroVideoPoster from '@/assets/hero-video-poster.jpg';
 
 const HeroSection = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    // Auto-play video when component mounts
     if (videoRef.current) {
       videoRef.current.play().catch(console.error);
     }
@@ -14,23 +12,17 @@ const HeroSection = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* Video Background */}
       <div className="absolute inset-0">
         <video
           ref={videoRef}
-          className="w-full h-full object-cover"
+          className="h-full w-full object-cover"
           autoPlay
           muted
           loop
           playsInline
-          poster="videos/video-teste.png"
         >
-          <source src="videos/video-teste.png" type="video/mp4" />
-          <img 
-            src="videos/video-teste.png"
-            alt="Clatt Hotel Luxury Interior" 
-            className="w-full h-full object-cover"
-          />
+          <source src="https://w7startup.com.br/img/clatt/video-hero.MP4" type="video/mp4" />
+          Seu navegador não suporta o elemento de vídeo.
         </video>
       </div>
     </section>

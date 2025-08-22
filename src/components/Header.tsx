@@ -49,7 +49,7 @@ const Header = () => {
 
             <div className="flex-1 flex justify-center">
               <a href="/">
-                <img src="/images/logo/logo-branca.png" alt="Logo Branca com escrito Clatt Hotel Design Executivo" className="w-42 h-auto" />
+                <img src="/images/logo/logo-branca.png" alt="Logo Branca com escrito Clatt Hotel Design Executivo" className="w-40 h-auto" />
               </a>
             </div>
 
@@ -84,7 +84,7 @@ const Header = () => {
               {/* Logo */}
               <div className="flex-1 flex justify-center">
                 <a href="/">
-                  <img src="/images/logo/logo-branca.png" alt="Logo Branca com escrito Clatt Hotel Design Executivo" className="w-42 h-auto" />
+                  <img src="/images/logo/logo-branca.png" alt="Logo Branca com escrito Clatt Hotel Design Executivo" className="w-40 h-auto" />
                 </a>
               </div>
                <Button

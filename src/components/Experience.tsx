@@ -7,14 +7,14 @@ const ExperienceSection = () => {
       id: 1,
       name: "Lounge",
       description: "Ambientes privativos e sofisticados para decisões importantes, equipados com tecnologia de ponta. Ideal para encontros de diretoria e negociações estratégicas.",
-      image: "/images/experiencia/louge.png",
+      image: "https://w7startup.com.br/img/clatt/louge.png",
       buttonText: "Saiba Mais"
     },
     {
       id: 2,
-      name: "Salas de Reunião Executivas",
-      description: "Espaço elegante e descontraído, perfeito para coffee breaks e coquetéis. Criado para estimular a conexão e a troca de experiências entre os participantes.",
-      image: "/images/experiencia/sala-reuniao.png",
+      name: "Gastronomia",
+      description: "Ambiente sofisticado e acolhedor, ideal para almoços de negócios e jantares memoráveis. Criado para despertar os sentidos e proporcionar uma experiência culinária única a cada prato.",
+      image: "https://w7startup.com.br/img/clatt/restaurante.png",
       buttonText: "Saiba Mais"
     }
   ];

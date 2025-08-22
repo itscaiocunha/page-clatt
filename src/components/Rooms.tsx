@@ -7,21 +7,21 @@ const RoomsSection = () => {
       id: 1,
       name: "Quartos Executivos",
       description: "Conforto e funcionalidade em ambientes projetados para o seu descanso e produtividade. Ideal para viajantes a trabalho que valorizam eficiência e bem-estar.",
-      image: "images/quartos/quarto-executivo.png",
+      image: "https://w7startup.com.br/img/clatt/quarto-executivo.png",
       buttonText: "Saiba Mais"
     },
     {
       id: 2,
       name: "Suítes Premium",
       description: "Elegância e exclusividade com espaços amplos, decoração refinada e serviços diferenciados. Perfeitas para estadias que pedem uma experiência superior.",
-      image: "images/quartos/suite-premium.png",
+      image: "https://w7startup.com.br/img/clatt/suite-premium.png",
       buttonText: "Saiba Mais"
     },
     {
       id: 3,
       name: "Cobertura Luxo",
       description: "Exclusividade e sofisticação no ponto mais alto, com vistas deslumbrantes e terraço privativo. A escolha definitiva para uma experiência de luxo incomparável.",
-      image: "images/quartos/cobertura-luxo.png",
+      image: "https://w7startup.com.br/img/clatt/cobertura-luxo.png",
       buttonText: "Saiba Mais"
     }
   ];
